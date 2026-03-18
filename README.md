@@ -15,6 +15,8 @@ Download the latest release zip for your platform, extract it, and double-click 
 
 Prerequisites: Python 3, `spelinst.exe` in the repo root.
 
+https://archive.org/details/spelinst
+
 ```bash
 # 1. Extract + patch game content
 python build_content.py spelinst.exe
