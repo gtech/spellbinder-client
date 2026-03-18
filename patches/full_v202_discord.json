@@ -1,0 +1,20 @@
+{
+  "target": "full game v2.0.2 — discord community patch",
+  "target_file": "game.dll",
+  "clean_md5": "9df9c2bb2f5561354bdaff613ffaf7a1",
+  "patched_md5": "4d68de929660dc96f6f6505302a86854",
+  "pe_base": "0x400000",
+  "text_section_va": "0x1000",
+  "text_section_raw": "0x1000",
+  "patches": [
+    {
+      "name": "udp_jnz_to_jz",
+      "description": "Flips JNZ to JZ at 0x4479BE — inverts a conditional branch in the UDP networking path. Required for compatibility with the C# community server. Vanilla (unpatched) client works with our Python server instead.",
+      "file_offset": "0x479BE",
+      "virtual_address": "0x4479BE",
+      "original": "75",
+      "patched": "74",
+      "note": "JNZ rel8 -> JZ rel8. Single byte change. Unpatched=works with Python server, patched=works with C# server."
+    }
+  ]
+}

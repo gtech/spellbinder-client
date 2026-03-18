@@ -1,0 +1,184 @@
+{
+  "target": "spell.bin \u2014 discord community balance patch",
+  "target_file": "spell.bin",
+  "clean_md5": "8ae0bfa9c588ed756494f4ee6fafaf90",
+  "patched_md5": "22cacf1d9d275017fefe6919505bbf22",
+  "patches": [
+    {
+      "name": "spellbin_0x0CFEC",
+      "description": "spell.bin byte(s) at 0x0CFEC-0x0CFEC (1 bytes)",
+      "file_offset": "0xCFEC",
+      "virtual_address": "0xCFEC",
+      "original": "28",
+      "patched": "0a"
+    },
+    {
+      "name": "spellbin_0x0CFF0",
+      "description": "spell.bin byte(s) at 0x0CFF0-0x0CFF0 (1 bytes)",
+      "file_offset": "0xCFF0",
+      "virtual_address": "0xCFF0",
+      "original": "15",
+      "patched": "64"
+    },
+    {
+      "name": "spellbin_0x0CFF8",
+      "description": "spell.bin byte(s) at 0x0CFF8-0x0CFF8 (1 bytes)",
+      "file_offset": "0xCFF8",
+      "virtual_address": "0xCFF8",
+      "original": "20",
+      "patched": "0c"
+    },
+    {
+      "name": "spellbin_0x0D01C",
+      "description": "spell.bin byte(s) at 0x0D01C-0x0D01C (1 bytes)",
+      "file_offset": "0xD01C",
+      "virtual_address": "0xD01C",
+      "original": "00",
+      "patched": "9c"
+    },
+    {
+      "name": "spellbin_0x0D030",
+      "description": "spell.bin byte(s) at 0x0D030-0x0D030 (1 bytes)",
+      "file_offset": "0xD030",
+      "virtual_address": "0xD030",
+      "original": "00",
+      "patched": "50"
+    },
+    {
+      "name": "spellbin_0x0D038",
+      "description": "spell.bin byte(s) at 0x0D038-0x0D038 (1 bytes)",
+      "file_offset": "0xD038",
+      "virtual_address": "0xD038",
+      "original": "11",
+      "patched": "00"
+    },
+    {
+      "name": "spellbin_0x0D05C",
+      "description": "spell.bin byte(s) at 0x0D05C-0x0D05C (1 bytes)",
+      "file_offset": "0xD05C",
+      "virtual_address": "0xD05C",
+      "original": "00",
+      "patched": "01"
+    },
+    {
+      "name": "spellbin_0x0D060",
+      "description": "spell.bin byte(s) at 0x0D060-0x0D060 (1 bytes)",
+      "file_offset": "0xD060",
+      "virtual_address": "0xD060",
+      "original": "00",
+      "patched": "01"
+    },
+    {
+      "name": "spellbin_0x0D064",
+      "description": "spell.bin byte(s) at 0x0D064-0x0D064 (1 bytes)",
+      "file_offset": "0xD064",
+      "virtual_address": "0xD064",
+      "original": "08",
+      "patched": "00"
+    },
+    {
+      "name": "spellbin_0x0D068",
+      "description": "spell.bin byte(s) at 0x0D068-0x0D068 (1 bytes)",
+      "file_offset": "0xD068",
+      "virtual_address": "0xD068",
+      "original": "04",
+      "patched": "00"
+    },
+    {
+      "name": "spellbin_0x0D06C",
+      "description": "spell.bin byte(s) at 0x0D06C-0x0D06C (1 bytes)",
+      "file_offset": "0xD06C",
+      "virtual_address": "0xD06C",
+      "original": "04",
+      "patched": "00"
+    },
+    {
+      "name": "spellbin_0x0D078",
+      "description": "spell.bin byte(s) at 0x0D078-0x0D079 (2 bytes)",
+      "file_offset": "0xD078",
+      "virtual_address": "0xD078",
+      "original": "d007",
+      "patched": "0000"
+    },
+    {
+      "name": "spellbin_0x0D088",
+      "description": "spell.bin byte(s) at 0x0D088-0x0D088 (1 bytes)",
+      "file_offset": "0xD088",
+      "virtual_address": "0xD088",
+      "original": "40",
+      "patched": "00"
+    },
+    {
+      "name": "spellbin_0x0D090",
+      "description": "spell.bin byte(s) at 0x0D090-0x0D090 (1 bytes)",
+      "file_offset": "0xD090",
+      "virtual_address": "0xD090",
+      "original": "18",
+      "patched": "00"
+    },
+    {
+      "name": "spellbin_0x0D094",
+      "description": "spell.bin byte(s) at 0x0D094-0x0D094 (1 bytes)",
+      "file_offset": "0xD094",
+      "virtual_address": "0xD094",
+      "original": "30",
+      "patched": "00"
+    },
+    {
+      "name": "spellbin_0x0D09C",
+      "description": "spell.bin byte(s) at 0x0D09C-0x0D09C (1 bytes)",
+      "file_offset": "0xD09C",
+      "virtual_address": "0xD09C",
+      "original": "00",
+      "patched": "01"
+    },
+    {
+      "name": "spellbin_0x0D0BC",
+      "description": "spell.bin byte(s) at 0x0D0BC-0x0D0BC (1 bytes)",
+      "file_offset": "0xD0BC",
+      "virtual_address": "0xD0BC",
+      "original": "df",
+      "patched": "00"
+    },
+    {
+      "name": "spellbin_0x0D0D0",
+      "description": "spell.bin byte(s) at 0x0D0D0-0x0D0D1 (2 bytes)",
+      "file_offset": "0xD0D0",
+      "virtual_address": "0xD0D0",
+      "original": "8002",
+      "patched": "f401"
+    },
+    {
+      "name": "spellbin_0x0D0D4",
+      "description": "spell.bin byte(s) at 0x0D0D4-0x0D0D5 (2 bytes)",
+      "file_offset": "0xD0D4",
+      "virtual_address": "0xD0D4",
+      "original": "2500",
+      "patched": "f401"
+    },
+    {
+      "name": "spellbin_0x0D0D8",
+      "description": "spell.bin byte(s) at 0x0D0D8-0x0D0D9 (2 bytes)",
+      "file_offset": "0xD0D8",
+      "virtual_address": "0xD0D8",
+      "original": "0000",
+      "patched": "f401"
+    },
+    {
+      "name": "spellbin_0x0D0EC",
+      "description": "spell.bin byte(s) at 0x0D0EC-0x0D0EC (1 bytes)",
+      "file_offset": "0xD0EC",
+      "virtual_address": "0xD0EC",
+      "original": "0a",
+      "patched": "00"
+    },
+    {
+      "name": "spellbin_0x14E9C",
+      "description": "spell.bin byte(s) at 0x14E9C-0x14E9D (2 bytes)",
+      "file_offset": "0x14E9C",
+      "virtual_address": "0x14E9C",
+      "original": "72b6",
+      "patched": "400d"
+    }
+  ]
+}
