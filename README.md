@@ -2,6 +2,8 @@
 
 Portable game client for SpellBinder: The Nexus Conflict (1999). Connects to community servers — no manual config editing needed.
 
+You can find the server here: https://github.com/Mindl-dev/Spellbinder
+
 ## For Players
 
 Download the latest release zip for your platform, extract it, and double-click the launcher.
