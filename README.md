@@ -9,7 +9,7 @@ You can find the server here: https://github.com/Mindl-dev/Spellbinder
 Download the latest release zip for your platform, extract it, and double-click the launcher.
 
 **Windows:** `Play.exe` — server picker, crash watchdog, dgVoodoo for fullscreen borderless
-**macOS:** `SpellBinder.app` — server picker, CrossOver/Wine integration. See [Mac setup](../docs/mac-setup.md)
+**macOS:** `SpellBinder.app` — server picker, CrossOver/Wine integration. See [Mac setup](https://github.com/gtech/spellbinder-client/blob/docs/mac-setup.md)
 
 ## For Developers
 
